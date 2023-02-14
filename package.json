@@ -1,0 +1,30 @@
+{
+  "name": "w-schema-form",
+  "version": "1.0.0",
+  "description": "a simple schemaForm",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "dev:demo": "vite -m demo",
+    "build": "vite build"
+  },
+  "keywords": [
+    "schemaForm"
+  ],
+  "author": "WayneFung",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waynefong/w-schema-form.git"
+  },
+  "homepage": "https://github.com/Waynefong/w-schema-form/blob/master/README.md",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "dayjs": "^1.11.7",
+    "less": "^4.1.3",
+    "tdesign-vue-next": "^1.0.6",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vue": "^3.2.47"
+  }
+}
