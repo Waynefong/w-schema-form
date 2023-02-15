@@ -10,6 +10,7 @@ export default defineConfig(({ command, mode }) => {
     root: rootList[mode],
     plugins: [vue()],
     build: {
+      emptyOutDir: true,
       outDir: "dist",
       minify: true,
       rollupOptions: {
