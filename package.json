@@ -11,6 +11,10 @@
   "keywords": [
     "schemaForm"
   ],
+  "files": [
+    "dist/lib",
+    "dist/es"
+  ],
   "author": "WayneFung",
   "license": "MIT",
   "repository": {
